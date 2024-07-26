@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f304e;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: #1f304e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.menu button {
+    flex: 1; /* Все кнопки одинаковой ширины */
+    background-color: #fcfbf9;
+    width: 100%
+    border: none;
+    padding: 20px; /* Размер кнопок */
+    font-size: 16px;
+    border-radius: 50px;
+    text-align: center; /* Центрируем текст внутри кнопок */
+    border-right: 10px solid #1f304e; /* Добавляем границу между кнопками */
+}
+
+.menu button:hover {
+    background-color: #333333;
+
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: none;
+    text-align: center;
+}
+
+
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Оптимизация для мобильных устройств */
+
