@@ -40,6 +40,10 @@ body {
     background-color: #333333;
 
 }
+.btn: active {
+    filter: brightness(40%)
+}
+
 
 .content {
     flex-grow: 1;
